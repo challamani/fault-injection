@@ -1,0 +1,42 @@
+[
+  {
+    "type": "delay",
+    "fixedDelay": 5000,
+    "priority": 1,
+    "matches": [
+      {
+        "methods": [
+          "DELETE",
+          "POST",
+          "GET"
+        ],
+        "headers": [
+          {
+            "name": "server",
+            "value": "resilience-test"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "abort",
+    "httpStatus": 500,
+    "priority": 2,
+    "matches": [
+      {
+        "methods": [
+          "DELETE",
+          "POST",
+          "PUT"
+        ],
+        "headers": [
+          {
+            "name": "server",
+            "value": "resilience-test"
+          }
+        ]
+      }
+    ]
+  }
+]
