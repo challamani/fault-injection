@@ -9,7 +9,9 @@ This is `fault-injection` service designed to test a system resilience, fault to
 ### About Fault-injection
 
 This service is born from the fault injection capabilities of [Istio](https://istio.io/latest/docs/tasks/traffic-management/fault-injection/)
-Istio, as a service mesh solution for Kubernetes, offers fault injection capabilities as part of its traffic management features. Fault injection involves intentionally introducing failures into your system to test its resilience and fault tolerance, but Istio's fault-injection resources we can apply to mesh enabled Kubernetes workloads.
+
+Istio, as a service mesh solution for Kubernetes, offers fault injection capabilities as part of its traffic management features. 
+Fault injection involves intentionally introducing failures into your system to test its resilience and fault tolerance, but Istio's fault-injection resources we can apply to mesh enabled Kubernetes workloads.
 
 This service provides fault injection functionality for individual microservices, whether they're deployed in Kubernetes clusters (non mesh workloads) or standalone instances on VMs.
 
