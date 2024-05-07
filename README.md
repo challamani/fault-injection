@@ -2,9 +2,9 @@
 This is `fault-injection` service designed to test a system resilience, fault tolerance, error handling, and fail-over scenarios.
 
 ## Table of Contents
-### [About Fault-injection](#about-fault-injection)
-### [What are the benefits](#Benefits)
-### [Usage](#usage)
+- [About Fault-injection](#about-fault-injection)
+- [What are the benefits](#Benefits)
+- [Usage](#usage)
 
 ### About Fault-injection
 
