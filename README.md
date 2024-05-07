@@ -31,9 +31,9 @@ Here are some benefits of Istio fault injection
 
 ### Usage
 
-This `fault-injection` service can be a lib service that you add use as `maven` dependency in your spring-boot microservice, but currently this repo consists of an example way of implementing `fault-injection` filter that has to be executed after `authentication/authorization` layer in your rest-api implementation.
+This `fault-injection` service can be a lib service that you can add use as `maven` dependency in your spring-boot microservice, but currently this repo consists of an example way of implementing `fault-injection` filter that has to be executed after `authentication/authorization` layer in your rest-api implementation.
 
-Note: The `fault-injection` service works on flag `service.fault-injection=true`, by default it is `false` to skip loading the `fault-injection service` as we may not require this type of functionalities across all environments.  
+Note: The `fault-injection` service works on a flag `service.fault-injection=true`, by default it is `false` to skip loading the `fault-injection service` as we may not require this type of functionalities across all environments.  
 
 #### Fault-injection config
 ```json
